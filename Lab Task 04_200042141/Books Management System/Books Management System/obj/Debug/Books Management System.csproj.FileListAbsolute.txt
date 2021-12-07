@@ -1,0 +1,11 @@
+F:\SWE 4201\Books Management System\Books Management System\bin\Debug\Books Management System.exe.config
+F:\SWE 4201\Books Management System\Books Management System\bin\Debug\Books Management System.exe
+F:\SWE 4201\Books Management System\Books Management System\bin\Debug\Books Management System.pdb
+F:\SWE 4201\Books Management System\Books Management System\obj\Debug\Books Management System.csproj.AssemblyReference.cache
+F:\SWE 4201\Books Management System\Books Management System\obj\Debug\Books Management System.csproj.SuggestedBindingRedirects.cache
+F:\SWE 4201\Books Management System\Books Management System\obj\Debug\Books_Management_System.Form1.resources
+F:\SWE 4201\Books Management System\Books Management System\obj\Debug\Books_Management_System.Properties.Resources.resources
+F:\SWE 4201\Books Management System\Books Management System\obj\Debug\Books Management System.csproj.GenerateResource.cache
+F:\SWE 4201\Books Management System\Books Management System\obj\Debug\Books Management System.csproj.CoreCompileInputs.cache
+F:\SWE 4201\Books Management System\Books Management System\obj\Debug\Books Management System.exe
+F:\SWE 4201\Books Management System\Books Management System\obj\Debug\Books Management System.pdb
