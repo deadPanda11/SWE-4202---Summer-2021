@@ -1,0 +1,6 @@
+F:\SWE 4201\Pharmacy_Dependencies\Pharmacy_Dependencies\bin\Debug\Pharmacy_Dependencies.dll
+F:\SWE 4201\Pharmacy_Dependencies\Pharmacy_Dependencies\bin\Debug\Pharmacy_Dependencies.pdb
+F:\SWE 4201\Pharmacy_Dependencies\Pharmacy_Dependencies\obj\Debug\Pharmacy_Dependencies.csproj.AssemblyReference.cache
+F:\SWE 4201\Pharmacy_Dependencies\Pharmacy_Dependencies\obj\Debug\Pharmacy_Dependencies.csproj.CoreCompileInputs.cache
+F:\SWE 4201\Pharmacy_Dependencies\Pharmacy_Dependencies\obj\Debug\Pharmacy_Dependencies.dll
+F:\SWE 4201\Pharmacy_Dependencies\Pharmacy_Dependencies\obj\Debug\Pharmacy_Dependencies.pdb
