@@ -262,9 +262,9 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(518, 466);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 16);
+            this.label11.Size = new System.Drawing.Size(48, 16);
             this.label11.TabIndex = 26;
-            this.label11.Text = "Price:";
+            this.label11.Text = "Power:";
             // 
             // label12
             // 

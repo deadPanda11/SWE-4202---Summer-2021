@@ -49,19 +49,18 @@ namespace Pharmacy_Management_System
             {
                 if (medicine.id == medicineid)
                 {
-                    if (medicine.quantity == 0)
+                    if ((medicine.quantity <= 0) || (medicine.quantity <= sellquantity))
                     {
                         MessageBox.Show("Out of Stock.");
                     }
-                    else
+                    if(medicine.quantity >= sellquantity)
                     {
                         medicine.quantity = medicine.quantity - sellquantity;
                         medicine.balance = medicine.balance + (sellquantity * medicine.price);
+                        MessageBox.Show("Medicine has been sold.");
                     }
                 }
             }
-
-            MessageBox.Show("Medicine has been sold.");
         }
 
         private void ShowStockButton_Click(object sender, EventArgs e)
@@ -72,8 +71,8 @@ namespace Pharmacy_Management_System
             {
                 if (medicine.id == stockid)
                 {
-                    ShowMedNameLabel.Text = medicine.id.ToString();
-                    ShowMedPowerLabel.Text = medicine.price.ToString();
+                    ShowMedNameLabel.Text = medicine.name.ToString();
+                    ShowMedPowerLabel.Text = medicine.power.ToString();
                     ShowQuantityLabel.Text = medicine.quantity.ToString();
                 }
             }
@@ -81,10 +80,12 @@ namespace Pharmacy_Management_System
 
         private void ShowBalanceButton_Click(object sender, EventArgs e)
         {
+            TotalBalance total = new TotalBalance();
             foreach (Medicine medicine in medicines)
             {
-                AccBalanceLabel.Text = medicine.balance.ToString();
+                total.totalBalance = total.totalBalance + medicine.balance;
             }
+            AccBalanceLabel.Text = Convert.ToString(total.totalBalance);
         }
     }
 }

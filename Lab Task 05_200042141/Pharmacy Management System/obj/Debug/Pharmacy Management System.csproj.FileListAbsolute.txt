@@ -12,3 +12,16 @@ F:\SWE 4201\Pharmacy Management System\Pharmacy Management System\obj\Debug\Phar
 F:\SWE 4201\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.CopyComplete
 F:\SWE 4201\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy Management System.exe
 F:\SWE 4201\Pharmacy Management System\Pharmacy Management System\obj\Debug\Pharmacy Management System.pdb
+F:\SWE 4202 - Summer 2021\SWE-4202---Summer-2021\Lab Task 05_200042141\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe.config
+F:\SWE 4202 - Summer 2021\SWE-4202---Summer-2021\Lab Task 05_200042141\Pharmacy Management System\bin\Debug\Pharmacy Management System.exe
+F:\SWE 4202 - Summer 2021\SWE-4202---Summer-2021\Lab Task 05_200042141\Pharmacy Management System\bin\Debug\Pharmacy Management System.pdb
+F:\SWE 4202 - Summer 2021\SWE-4202---Summer-2021\Lab Task 05_200042141\Pharmacy Management System\bin\Debug\Pharmacy_Dependencies.pdb
+F:\SWE 4202 - Summer 2021\SWE-4202---Summer-2021\Lab Task 05_200042141\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.AssemblyReference.cache
+F:\SWE 4202 - Summer 2021\SWE-4202---Summer-2021\Lab Task 05_200042141\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.SuggestedBindingRedirects.cache
+F:\SWE 4202 - Summer 2021\SWE-4202---Summer-2021\Lab Task 05_200042141\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Form1.resources
+F:\SWE 4202 - Summer 2021\SWE-4202---Summer-2021\Lab Task 05_200042141\Pharmacy Management System\obj\Debug\Pharmacy_Management_System.Properties.Resources.resources
+F:\SWE 4202 - Summer 2021\SWE-4202---Summer-2021\Lab Task 05_200042141\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.GenerateResource.cache
+F:\SWE 4202 - Summer 2021\SWE-4202---Summer-2021\Lab Task 05_200042141\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.CoreCompileInputs.cache
+F:\SWE 4202 - Summer 2021\SWE-4202---Summer-2021\Lab Task 05_200042141\Pharmacy Management System\obj\Debug\Pharmacy Management System.csproj.CopyComplete
+F:\SWE 4202 - Summer 2021\SWE-4202---Summer-2021\Lab Task 05_200042141\Pharmacy Management System\obj\Debug\Pharmacy Management System.exe
+F:\SWE 4202 - Summer 2021\SWE-4202---Summer-2021\Lab Task 05_200042141\Pharmacy Management System\obj\Debug\Pharmacy Management System.pdb
