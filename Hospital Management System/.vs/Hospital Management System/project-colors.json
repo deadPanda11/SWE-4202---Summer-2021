@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0dda400b-ad88-402d-bfe0-d892dc17fd3a": {
+      "ProjectGuid": "0dda400b-ad88-402d-bfe0-d892dc17fd3a",
+      "DisplayName": "Hospital Management System",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
