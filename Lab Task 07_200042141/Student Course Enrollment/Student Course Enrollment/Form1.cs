@@ -119,14 +119,17 @@ namespace Student_Course_Enrollment
             string selected_student = SelectStudentComboBox.SelectedItem.ToString();
             string selected_course = SelectCourseComboBox.SelectedItem.ToString();
 
+            bool error_exists = true;
+
             foreach(Student student in students)
             {
-                if(student.name == selected_student)
+                if (student.name == selected_student)
                 {
                     foreach(Course course in courses)
                     {
-                        if(course.title == selected_course)
+                        if((course.title == selected_course) && (student.level == course.level))
                         {
+                            error_exists = false;
                             student.Enroll(course.title);
                             CourseFeeLabel.Text = Convert.ToString(student.getFee(course.coursefee));
                         }
@@ -140,13 +143,19 @@ namespace Student_Course_Enrollment
                 {
                     foreach (Course course in courses)
                     {
-                        if (course.title == selected_course)
+                        if ((course.title == selected_course) && (professional.level == course.level))
                         {
+                            error_exists = false;
                             professional.Enroll(course.title);
                             CourseFeeLabel.Text = Convert.ToString(professional.getFee(course.coursefee));
                         }
                     }
                 }
+            }
+
+            if (error_exists == true)
+            {
+                MessageBox.Show("Level does not match.");
             }
         }
 

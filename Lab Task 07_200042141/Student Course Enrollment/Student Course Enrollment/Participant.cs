@@ -29,14 +29,14 @@ namespace Student_Course_Enrollment
         }
 
         public string EnrolledCourses()
-        {   
-            for(int i = 0; i < enrolled_courses.Count; i++)
+        {
+            string list = name + "\t" + reg + "\t";
+            string new_list = "";
+            for (int i = 0; i < enrolled_courses.Count; i++)
             {
-                string list = name + "\t" + reg + "\t" + Convert.ToString(enrolled_courses[i]);
-                return list;
+                new_list = new_list + "\t" + enrolled_courses[i];
             }
+            return (list + new_list);
         }
-
     }
-
 }
