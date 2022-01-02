@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "80462e15-dc9b-4304-b744-227ec693f252": {
+      "ProjectGuid": "80462e15-dc9b-4304-b744-227ec693f252",
+      "DisplayName": "Student Course Enrollment",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

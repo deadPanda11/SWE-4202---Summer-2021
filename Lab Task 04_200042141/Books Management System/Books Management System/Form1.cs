@@ -29,12 +29,6 @@ namespace Books_Management_System
             string isbn = IsbnBox.Text;
             int quantity = Convert.ToInt32(StudyBookQtyBox.Text);
 
-            if (quantity < 0)
-            {
-                MessageBox.Show("Quantity cannot be negative.");
-                return;
-            }
-
             StudyBook dummy = new StudyBook(id, title, author, isbn, quantity);
 
             books.Add(dummy);

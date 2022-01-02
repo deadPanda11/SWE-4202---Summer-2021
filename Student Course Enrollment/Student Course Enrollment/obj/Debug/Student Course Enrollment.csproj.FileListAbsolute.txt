@@ -1,0 +1,11 @@
+F:\SWE 4201\Student Course Enrollment\Student Course Enrollment\bin\Debug\Student Course Enrollment.exe.config
+F:\SWE 4201\Student Course Enrollment\Student Course Enrollment\bin\Debug\Student Course Enrollment.exe
+F:\SWE 4201\Student Course Enrollment\Student Course Enrollment\bin\Debug\Student Course Enrollment.pdb
+F:\SWE 4201\Student Course Enrollment\Student Course Enrollment\obj\Debug\Student Course Enrollment.csproj.AssemblyReference.cache
+F:\SWE 4201\Student Course Enrollment\Student Course Enrollment\obj\Debug\Student Course Enrollment.csproj.SuggestedBindingRedirects.cache
+F:\SWE 4201\Student Course Enrollment\Student Course Enrollment\obj\Debug\Student_Course_Enrollment.Form1.resources
+F:\SWE 4201\Student Course Enrollment\Student Course Enrollment\obj\Debug\Student_Course_Enrollment.Properties.Resources.resources
+F:\SWE 4201\Student Course Enrollment\Student Course Enrollment\obj\Debug\Student Course Enrollment.csproj.GenerateResource.cache
+F:\SWE 4201\Student Course Enrollment\Student Course Enrollment\obj\Debug\Student Course Enrollment.csproj.CoreCompileInputs.cache
+F:\SWE 4201\Student Course Enrollment\Student Course Enrollment\obj\Debug\Student Course Enrollment.exe
+F:\SWE 4201\Student Course Enrollment\Student Course Enrollment\obj\Debug\Student Course Enrollment.pdb
