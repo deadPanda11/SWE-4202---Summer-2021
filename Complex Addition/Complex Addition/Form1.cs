@@ -19,10 +19,10 @@ namespace Complex_Addition
 
         private void AddButton_Click(object sender, EventArgs e)
         {
-            double r1 = Convert.ToInt32(r1textbox.Text);
-            double r2 = Convert.ToInt32(r2textbox.Text);
-            double i1 = Convert.ToInt32(i1textbox.Text);
-            double i2 = Convert.ToInt32(i2textbox.Text);
+            double r1 = Convert.ToDouble(r1textbox.Text);
+            double r2 = Convert.ToDouble(r2textbox.Text);
+            double i1 = Convert.ToDouble(i1textbox.Text);
+            double i2 = Convert.ToDouble(i2textbox.Text);
 
             Complex c1 = new Complex(r1, i1);
             Complex c2 = new Complex(r2, i2);
@@ -34,10 +34,10 @@ namespace Complex_Addition
 
         private void SubtractButton_Click_1(object sender, EventArgs e)
         {
-            double r1 = Convert.ToInt32(r1textbox.Text);
-            double r2 = Convert.ToInt32(r2textbox.Text);
-            double i1 = Convert.ToInt32(i1textbox.Text);
-            double i2 = Convert.ToInt32(i2textbox.Text);
+            double r1 = Convert.ToDouble(r1textbox.Text);
+            double r2 = Convert.ToDouble(r2textbox.Text);
+            double i1 = Convert.ToDouble(i1textbox.Text);
+            double i2 = Convert.ToDouble(i2textbox.Text);
 
             Complex c1 = new Complex(r1, i1);
             Complex c2 = new Complex(r2, i2);
@@ -49,10 +49,10 @@ namespace Complex_Addition
 
         private void MultiplyButton_Click(object sender, EventArgs e)
         {
-            double r1 = Convert.ToInt32(r1textbox.Text);
-            double r2 = Convert.ToInt32(r2textbox.Text);
-            double i1 = Convert.ToInt32(i1textbox.Text);
-            double i2 = Convert.ToInt32(i2textbox.Text);
+            double r1 = Convert.ToDouble(r1textbox.Text);
+            double r2 = Convert.ToDouble(r2textbox.Text);
+            double i1 = Convert.ToDouble(i1textbox.Text);
+            double i2 = Convert.ToDouble(i2textbox.Text);
 
             Complex c1 = new Complex(r1, i1);
             Complex c2 = new Complex(r2, i2);
@@ -73,10 +73,10 @@ namespace Complex_Addition
 
         private void DivideButton_Click(object sender, EventArgs e)
         {
-            double r1 = Convert.ToInt32(r1textbox.Text);
-            double r2 = Convert.ToInt32(r2textbox.Text);
-            double i1 = Convert.ToInt32(i1textbox.Text);
-            double i2 = Convert.ToInt32(i2textbox.Text);
+            double r1 = Convert.ToDouble(r1textbox.Text);
+            double r2 = Convert.ToDouble(r2textbox.Text);
+            double i1 = Convert.ToDouble(i1textbox.Text);
+            double i2 = Convert.ToDouble(i2textbox.Text);
 
             Complex c1 = new Complex(r1, i1);
             Complex c2 = new Complex(r2, i2);
