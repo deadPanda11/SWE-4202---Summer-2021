@@ -29,31 +29,31 @@
         private void InitializeComponent()
         {
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.CheckBalnaceButton = new System.Windows.Forms.Button();
             this.CheckBalanceLabel = new System.Windows.Forms.Label();
             this.CheckBalanceAccNoTextbox = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.SavingsAccountRadioButton3 = new System.Windows.Forms.RadioButton();
+            this.CurrentAccountRadioButton3 = new System.Windows.Forms.RadioButton();
             this.WithdrawButton = new System.Windows.Forms.Button();
-            this.AmountTextbox3 = new System.Windows.Forms.TextBox();
-            this.AccountNumberTextbox2 = new System.Windows.Forms.TextBox();
+            this.WithdrawAmountTextbox = new System.Windows.Forms.TextBox();
+            this.WithdrawAccountNumberTextbox = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.LoanAccountRadioButton2 = new System.Windows.Forms.RadioButton();
+            this.SavingsAccountRadioButton2 = new System.Windows.Forms.RadioButton();
+            this.CurrentAccountRadioButton2 = new System.Windows.Forms.RadioButton();
             this.label16 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.DepositButton = new System.Windows.Forms.Button();
-            this.AmountTextbox2 = new System.Windows.Forms.TextBox();
-            this.AccountNumberTextbox1 = new System.Windows.Forms.TextBox();
+            this.DepositAmountTextbox = new System.Windows.Forms.TextBox();
+            this.DepositAccNoTextbox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -69,7 +69,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.CheckBalnaceButton = new System.Windows.Forms.Button();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -89,6 +88,16 @@
             this.groupBox3.Size = new System.Drawing.Size(420, 306);
             this.groupBox3.TabIndex = 66;
             this.groupBox3.TabStop = false;
+            // 
+            // CheckBalnaceButton
+            // 
+            this.CheckBalnaceButton.Location = new System.Drawing.Point(154, 197);
+            this.CheckBalnaceButton.Name = "CheckBalnaceButton";
+            this.CheckBalnaceButton.Size = new System.Drawing.Size(97, 52);
+            this.CheckBalnaceButton.TabIndex = 55;
+            this.CheckBalnaceButton.Text = "Check";
+            this.CheckBalnaceButton.UseVisualStyleBackColor = true;
+            this.CheckBalnaceButton.Click += new System.EventHandler(this.CheckBalnaceButton_Click);
             // 
             // CheckBalanceLabel
             // 
@@ -136,12 +145,11 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton7);
-            this.groupBox2.Controls.Add(this.radioButton8);
-            this.groupBox2.Controls.Add(this.radioButton9);
+            this.groupBox2.Controls.Add(this.SavingsAccountRadioButton3);
+            this.groupBox2.Controls.Add(this.CurrentAccountRadioButton3);
             this.groupBox2.Controls.Add(this.WithdrawButton);
-            this.groupBox2.Controls.Add(this.AmountTextbox3);
-            this.groupBox2.Controls.Add(this.AccountNumberTextbox2);
+            this.groupBox2.Controls.Add(this.WithdrawAmountTextbox);
+            this.groupBox2.Controls.Add(this.WithdrawAccountNumberTextbox);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.label13);
@@ -152,66 +160,56 @@
             this.groupBox2.TabIndex = 65;
             this.groupBox2.TabStop = false;
             // 
-            // radioButton7
+            // SavingsAccountRadioButton3
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(98, 233);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(109, 20);
-            this.radioButton7.TabIndex = 57;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "Loan Account";
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.SavingsAccountRadioButton3.AutoSize = true;
+            this.SavingsAccountRadioButton3.Location = new System.Drawing.Point(98, 211);
+            this.SavingsAccountRadioButton3.Name = "SavingsAccountRadioButton3";
+            this.SavingsAccountRadioButton3.Size = new System.Drawing.Size(128, 20);
+            this.SavingsAccountRadioButton3.TabIndex = 56;
+            this.SavingsAccountRadioButton3.TabStop = true;
+            this.SavingsAccountRadioButton3.Text = "Savings Account";
+            this.SavingsAccountRadioButton3.UseVisualStyleBackColor = true;
             // 
-            // radioButton8
+            // CurrentAccountRadioButton3
             // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(98, 197);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(128, 20);
-            this.radioButton8.TabIndex = 56;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Savings Account";
-            this.radioButton8.UseVisualStyleBackColor = true;
-            // 
-            // radioButton9
-            // 
-            this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(98, 162);
-            this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(121, 20);
-            this.radioButton9.TabIndex = 55;
-            this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "Current Account";
-            this.radioButton9.UseVisualStyleBackColor = true;
+            this.CurrentAccountRadioButton3.AutoSize = true;
+            this.CurrentAccountRadioButton3.Location = new System.Drawing.Point(98, 176);
+            this.CurrentAccountRadioButton3.Name = "CurrentAccountRadioButton3";
+            this.CurrentAccountRadioButton3.Size = new System.Drawing.Size(121, 20);
+            this.CurrentAccountRadioButton3.TabIndex = 55;
+            this.CurrentAccountRadioButton3.TabStop = true;
+            this.CurrentAccountRadioButton3.Text = "Current Account";
+            this.CurrentAccountRadioButton3.UseVisualStyleBackColor = true;
             // 
             // WithdrawButton
             // 
-            this.WithdrawButton.Location = new System.Drawing.Point(159, 282);
+            this.WithdrawButton.Location = new System.Drawing.Point(159, 267);
             this.WithdrawButton.Name = "WithdrawButton";
             this.WithdrawButton.Size = new System.Drawing.Size(97, 52);
             this.WithdrawButton.TabIndex = 53;
             this.WithdrawButton.Text = "Withdraw";
             this.WithdrawButton.UseVisualStyleBackColor = true;
+            this.WithdrawButton.Click += new System.EventHandler(this.WithdrawButton_Click);
             // 
-            // AmountTextbox3
+            // WithdrawAmountTextbox
             // 
-            this.AmountTextbox3.Location = new System.Drawing.Point(98, 118);
-            this.AmountTextbox3.Name = "AmountTextbox3";
-            this.AmountTextbox3.Size = new System.Drawing.Size(283, 22);
-            this.AmountTextbox3.TabIndex = 52;
+            this.WithdrawAmountTextbox.Location = new System.Drawing.Point(98, 118);
+            this.WithdrawAmountTextbox.Name = "WithdrawAmountTextbox";
+            this.WithdrawAmountTextbox.Size = new System.Drawing.Size(283, 22);
+            this.WithdrawAmountTextbox.TabIndex = 52;
             // 
-            // AccountNumberTextbox2
+            // WithdrawAccountNumberTextbox
             // 
-            this.AccountNumberTextbox2.Location = new System.Drawing.Point(98, 75);
-            this.AccountNumberTextbox2.Name = "AccountNumberTextbox2";
-            this.AccountNumberTextbox2.Size = new System.Drawing.Size(283, 22);
-            this.AccountNumberTextbox2.TabIndex = 51;
+            this.WithdrawAccountNumberTextbox.Location = new System.Drawing.Point(98, 75);
+            this.WithdrawAccountNumberTextbox.Name = "WithdrawAccountNumberTextbox";
+            this.WithdrawAccountNumberTextbox.Size = new System.Drawing.Size(283, 22);
+            this.WithdrawAccountNumberTextbox.TabIndex = 51;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(19, 162);
+            this.label11.Location = new System.Drawing.Point(19, 176);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(55, 32);
             this.label11.TabIndex = 50;
@@ -247,14 +245,14 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.radioButton1);
-            this.groupBox4.Controls.Add(this.radioButton2);
-            this.groupBox4.Controls.Add(this.radioButton3);
+            this.groupBox4.Controls.Add(this.LoanAccountRadioButton2);
+            this.groupBox4.Controls.Add(this.SavingsAccountRadioButton2);
+            this.groupBox4.Controls.Add(this.CurrentAccountRadioButton2);
             this.groupBox4.Controls.Add(this.label16);
             this.groupBox4.Controls.Add(this.label19);
             this.groupBox4.Controls.Add(this.DepositButton);
-            this.groupBox4.Controls.Add(this.AmountTextbox2);
-            this.groupBox4.Controls.Add(this.AccountNumberTextbox1);
+            this.groupBox4.Controls.Add(this.DepositAmountTextbox);
+            this.groupBox4.Controls.Add(this.DepositAccNoTextbox);
             this.groupBox4.Controls.Add(this.label7);
             this.groupBox4.Controls.Add(this.label10);
             this.groupBox4.Location = new System.Drawing.Point(464, 12);
@@ -263,38 +261,38 @@
             this.groupBox4.TabIndex = 64;
             this.groupBox4.TabStop = false;
             // 
-            // radioButton1
+            // LoanAccountRadioButton2
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(98, 237);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(109, 20);
-            this.radioButton1.TabIndex = 64;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Loan Account";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.LoanAccountRadioButton2.AutoSize = true;
+            this.LoanAccountRadioButton2.Location = new System.Drawing.Point(98, 237);
+            this.LoanAccountRadioButton2.Name = "LoanAccountRadioButton2";
+            this.LoanAccountRadioButton2.Size = new System.Drawing.Size(109, 20);
+            this.LoanAccountRadioButton2.TabIndex = 64;
+            this.LoanAccountRadioButton2.TabStop = true;
+            this.LoanAccountRadioButton2.Text = "Loan Account";
+            this.LoanAccountRadioButton2.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // SavingsAccountRadioButton2
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(98, 201);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(128, 20);
-            this.radioButton2.TabIndex = 63;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Savings Account";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.SavingsAccountRadioButton2.AutoSize = true;
+            this.SavingsAccountRadioButton2.Location = new System.Drawing.Point(98, 201);
+            this.SavingsAccountRadioButton2.Name = "SavingsAccountRadioButton2";
+            this.SavingsAccountRadioButton2.Size = new System.Drawing.Size(128, 20);
+            this.SavingsAccountRadioButton2.TabIndex = 63;
+            this.SavingsAccountRadioButton2.TabStop = true;
+            this.SavingsAccountRadioButton2.Text = "Savings Account";
+            this.SavingsAccountRadioButton2.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // CurrentAccountRadioButton2
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(98, 166);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(121, 20);
-            this.radioButton3.TabIndex = 62;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Current Account";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.CurrentAccountRadioButton2.AutoSize = true;
+            this.CurrentAccountRadioButton2.Location = new System.Drawing.Point(98, 166);
+            this.CurrentAccountRadioButton2.Name = "CurrentAccountRadioButton2";
+            this.CurrentAccountRadioButton2.Size = new System.Drawing.Size(121, 20);
+            this.CurrentAccountRadioButton2.TabIndex = 62;
+            this.CurrentAccountRadioButton2.TabStop = true;
+            this.CurrentAccountRadioButton2.Text = "Current Account";
+            this.CurrentAccountRadioButton2.UseVisualStyleBackColor = true;
             // 
             // label16
             // 
@@ -322,20 +320,21 @@
             this.DepositButton.TabIndex = 54;
             this.DepositButton.Text = "Deposit";
             this.DepositButton.UseVisualStyleBackColor = true;
+            this.DepositButton.Click += new System.EventHandler(this.DepositButton_Click);
             // 
-            // AmountTextbox2
+            // DepositAmountTextbox
             // 
-            this.AmountTextbox2.Location = new System.Drawing.Point(98, 120);
-            this.AmountTextbox2.Name = "AmountTextbox2";
-            this.AmountTextbox2.Size = new System.Drawing.Size(283, 22);
-            this.AmountTextbox2.TabIndex = 53;
+            this.DepositAmountTextbox.Location = new System.Drawing.Point(98, 120);
+            this.DepositAmountTextbox.Name = "DepositAmountTextbox";
+            this.DepositAmountTextbox.Size = new System.Drawing.Size(283, 22);
+            this.DepositAmountTextbox.TabIndex = 53;
             // 
-            // AccountNumberTextbox1
+            // DepositAccNoTextbox
             // 
-            this.AccountNumberTextbox1.Location = new System.Drawing.Point(98, 77);
-            this.AccountNumberTextbox1.Name = "AccountNumberTextbox1";
-            this.AccountNumberTextbox1.Size = new System.Drawing.Size(283, 22);
-            this.AccountNumberTextbox1.TabIndex = 52;
+            this.DepositAccNoTextbox.Location = new System.Drawing.Point(98, 77);
+            this.DepositAccNoTextbox.Name = "DepositAccNoTextbox";
+            this.DepositAccNoTextbox.Size = new System.Drawing.Size(283, 22);
+            this.DepositAccNoTextbox.TabIndex = 52;
             // 
             // label7
             // 
@@ -488,16 +487,6 @@
             this.label1.TabIndex = 45;
             this.label1.Text = "Create User Account";
             // 
-            // CheckBalnaceButton
-            // 
-            this.CheckBalnaceButton.Location = new System.Drawing.Point(154, 197);
-            this.CheckBalnaceButton.Name = "CheckBalnaceButton";
-            this.CheckBalnaceButton.Size = new System.Drawing.Size(97, 52);
-            this.CheckBalnaceButton.TabIndex = 55;
-            this.CheckBalnaceButton.Text = "Check";
-            this.CheckBalnaceButton.UseVisualStyleBackColor = true;
-            this.CheckBalnaceButton.Click += new System.EventHandler(this.CheckBalnaceButton_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -530,25 +519,24 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton9;
+        private System.Windows.Forms.RadioButton SavingsAccountRadioButton3;
+        private System.Windows.Forms.RadioButton CurrentAccountRadioButton3;
         private System.Windows.Forms.Button WithdrawButton;
-        private System.Windows.Forms.TextBox AmountTextbox3;
-        private System.Windows.Forms.TextBox AccountNumberTextbox2;
+        private System.Windows.Forms.TextBox WithdrawAmountTextbox;
+        private System.Windows.Forms.TextBox WithdrawAccountNumberTextbox;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton LoanAccountRadioButton2;
+        private System.Windows.Forms.RadioButton SavingsAccountRadioButton2;
+        private System.Windows.Forms.RadioButton CurrentAccountRadioButton2;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button DepositButton;
-        private System.Windows.Forms.TextBox AmountTextbox2;
-        private System.Windows.Forms.TextBox AccountNumberTextbox1;
+        private System.Windows.Forms.TextBox DepositAmountTextbox;
+        private System.Windows.Forms.TextBox DepositAccNoTextbox;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.GroupBox groupBox1;
