@@ -62,7 +62,7 @@ namespace Complex_Addition
             return ans;
         }
 
-        public override string ToString()
+        public  string ToString()
         {
             return real.ToString() + "+" + imaginary.ToString() + "i";
         }

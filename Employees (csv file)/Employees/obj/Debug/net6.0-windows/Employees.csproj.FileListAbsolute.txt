@@ -1,0 +1,17 @@
+F:\SWE 4201\Employees\Employees\bin\Debug\net6.0-windows\Employees.exe
+F:\SWE 4201\Employees\Employees\bin\Debug\net6.0-windows\Employees.deps.json
+F:\SWE 4201\Employees\Employees\bin\Debug\net6.0-windows\Employees.runtimeconfig.json
+F:\SWE 4201\Employees\Employees\bin\Debug\net6.0-windows\Employees.dll
+F:\SWE 4201\Employees\Employees\bin\Debug\net6.0-windows\ref\Employees.dll
+F:\SWE 4201\Employees\Employees\bin\Debug\net6.0-windows\Employees.pdb
+F:\SWE 4201\Employees\Employees\obj\Debug\net6.0-windows\Employees.csproj.AssemblyReference.cache
+F:\SWE 4201\Employees\Employees\obj\Debug\net6.0-windows\Employees.Form1.resources
+F:\SWE 4201\Employees\Employees\obj\Debug\net6.0-windows\Employees.csproj.GenerateResource.cache
+F:\SWE 4201\Employees\Employees\obj\Debug\net6.0-windows\Employees.GeneratedMSBuildEditorConfig.editorconfig
+F:\SWE 4201\Employees\Employees\obj\Debug\net6.0-windows\Employees.AssemblyInfoInputs.cache
+F:\SWE 4201\Employees\Employees\obj\Debug\net6.0-windows\Employees.AssemblyInfo.cs
+F:\SWE 4201\Employees\Employees\obj\Debug\net6.0-windows\Employees.csproj.CoreCompileInputs.cache
+F:\SWE 4201\Employees\Employees\obj\Debug\net6.0-windows\Employees.dll
+F:\SWE 4201\Employees\Employees\obj\Debug\net6.0-windows\ref\Employees.dll
+F:\SWE 4201\Employees\Employees\obj\Debug\net6.0-windows\Employees.pdb
+F:\SWE 4201\Employees\Employees\obj\Debug\net6.0-windows\Employees.genruntimeconfig.cache
